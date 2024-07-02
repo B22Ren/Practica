@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <title>FoodisLife</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+  
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/c93511b22d.js" crossorigin="anonymous"></script>
+
+   
+</head>
+<body>
+
+  
+    <header class="header flex" id="header">
+        <div class="logoDiv">
+            <a href="index.html" class="logo">
+                FoodisLife
+            </a>
+        </div>
+
+    
+        <div class="navBar" id="navBar">
+            <ul class="navLists flex">
+                <li class="navItem">
+                    <a href="index.html" class="navLink">Home</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="#about" class="navLink">About</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="menu.html" class="navLink">Menu</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="/admin/dasboard.html" class="navLink">Dash</a>
+                </li>
+
+                <div class="navBarText">
+                    <p>Inima oricarui om sta prin stomacul lui.Noi ne asiguram ca veti avea mancare mereu.</p>
+                </div>
+
+               
+                <div class="closeNavbar" id="closeBtn">
+                    <i class='bx bxs-x-circle icon'></i>
+                </div>
+            </ul>
+        </div>
+
+    
+        <div class="headerIcons flex">
+            <a href="cart.html">
+                <i class="uil uil-shopping-bag icon"></i>
+            </a>
+
+             <div class="contactNumber">
+                <i class="uil uil-phone icon phoneIcon"></i>
+                <div class="phoneCard flex">
+                    <i class='bx bxs-phone icon'></i>
+                    <h3> +40 749 911 618</h3>
+                </div>
+             </div>
+
+        </div>
+
+       
+        <div class="toggleNavbar" id="toggler">
+            <i class="uil uil-align-justify icon"></i>
+        </div>
+    </header>
+
+
+
+    <section id="#home" class="home container">
+
+        <div class="sectionContent grid">
+            <div data-aos="fade-right"  class="homeText">
+                <h1 class="title">
+                   <span>Cea mai buna mincarea</span> Doar la un click distanta
+    
+                <p>Va doriti mincare doar adaugati ceva la cart.
+                </p>
+    
+                <button class="btn flex">
+                    Order Now  <i class="uil uil-arrow-right icon"></i>
+                </button>
+            </div>
+            <div  class="homeImage">
+                <img src="./Assests/homeImage.png" alt="Best food in Nigeria">
+            </div>
+
+            <img src="./Assests/floating (1).png" alt="" class="floatingImg1">
+            <img src="./Assests/floating (2).png" alt="" class="floatingImg2">
+            <img src="./Assests/floating (3).png" alt="" class="floatingImg3">
+        </div>
+       
+    </section>
+    
+    <div class="categoriesDiv container">
+        <div class="sectionContent grid">
+
+   
+            <div data-aos="fade-right" data-aos-duration="2000" class="singleCat">
+                <img src="./Assests/diet.png" alt="Food Website">
+
+                <h2 class="catTitle">
+                Mancare buna
+                </h2>
+
+                <p>
+                Avem o gama larga de mancare astfel orice pofte nu ai avea poti oricand sa vii la noi.
+                </p>
+
+                <a class="btn" href="menu.html">
+                   See Menu
+                </a>
+
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="3000" class="singleCat">
+                <img src="./Assests/drink.png" alt="Food Website">
+
+                <h2 class="catTitle">
+                Bauturi
+                </h2>
+
+                <p>
+                Bauturi reci/calde pentru orice temperatura
+                </p>
+
+                <a class="btn" href="menu.html">
+                   See Menu
+                </a>
+
+            </div>
+
+       
+            <div data-aos="fade-right" data-aos-duration="4000" class="singleCat">
+                <img src="./Assests/cake.png" alt="Food Website">
+
+                <h2 class="catTitle">
+                Mincare rapida
+                </h2>
+
+                <p>
+                Mancare rapida pentru cei grabiti
+                </p>
+
+                <a class="btn" href="menu.html">
+                   See Menu
+                </a>
+
+            </div>
+
+            
+            <div data-aos="fade-right" data-aos-duration="5000" class="singleCat">
+                <img src="./Assests/dessert.png" alt="Food Website">
+
+                <h2 class="catTitle">
+                  Desert
+                </h2>
+
+                <p>
+                Deserturi dulci pentru cei cu pofta de dulce
+                </p>
+
+                <a class="btn" href="menu.html">
+                   See Menu
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+   
+    <section id="about" class="about section container">
+
+        <div class="sectionContent grid"> 
+            <div class="aboutImage">
+                <img src="./Assests/aboutImage.png" alt="Best food">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="2000" class="aboutText">
+                <h1 class="title">
+                    De ce ne aleg oamenii?
+                </h1>
+    
+                <div class="aboutList grid">
+                  <div data-aos="fade-down" data-aos-duration="2000" class="singleInfo flex">
+
+                    <div class="smallImage">
+                    <img src="./Assests/hamburger.png" alt="Food delivery">
+                    </div>
+
+                    <div class="desc">
+                        <h5>Top mancare</h5>
+                        <p>
+                            Nici nu stii ce sa alegi asai?Totul arata asa bine.
+                        </p>
+                        
+                    </div>
+
+                     
+                  </div>
+                  <div data-aos="fade-down" data-aos-duration="3000" class="singleInfo flex">
+
+                    <div class="smallImage">
+                    <img src="./Assests/delivery-man.png" alt="Food delivery">
+                    </div>
+
+                    <div class="desc">
+                        <h5>Iti livram mincarea rapid si sigur</h5>
+                        <p>
+                            Livram mincarea in cel mai scurt timp posibil
+                        </p>
+                        
+                    </div>
+
+                     
+                  </div>
+
+                  <div data-aos="fade-down" data-aos-duration="4000" class="singleInfo flex">
+
+                    <div class="smallImage">
+                    <img src="./Assests/dish.png" alt="Food delivery">
+                    </div>
+
+                    <div class="desc">
+                        <h5>Ia-ti ceva bun</h5>
+                        <p>
+                            Mancare buna pentru o zi buna
+                        </p>
+                        
+                    </div>
+
+                     
+                  </div>
+                </div>
+    
+                
+            </div>
+        </div>
+       
+    </section>
+  
+    <section class="section popular container">
+        <div class="sectionContent">
+            <div data-aos="fade-down" data-aos-duration="4000" class="sectionIntro">
+                <h2>Top in favorite</h2>
+                <p>Uitate ce comanda si altii</p>
+            </div>
+
+            <div class="contentWrapper">
+                <div class="content swiper">
+                    <div class="swiper-wrapper">
+
+                        <div data-aos="fade-up" data-aos-duration="2000" class="swiper-slide singleItem">
+                            <div class="rating">
+                                <i class='bx bxs-star icon'></i>
+                                4.5
+                            </div>
+
+                            <div class="imgDiv  flex">
+                                <a href="details.html">
+                                    <img src="./Assests/popular (5).png" alt="Food Delivery Website">
+                                </a>
+                            </div>
+
+                            <h2 class="foodTitle">
+                               Crochete de peste cu salata de spanac
+                            </h2>
+                            <p>
+                                Mancare sanatoasa
+                            </p>
+
+                            <h4 class="price">
+                              <a href="details.html">
+                                22 ron <i class="uil uil-external-link-alt icon"></i>
+                              </a>
+                            </h4>
+
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-duration="3000" class="swiper-slide singleItem">
+                            <div class="rating">
+                                <i class='bx bxs-star icon'></i>
+                                4.5
+                            </div>
+
+                            <div class="imgDiv  flex">
+                                <a href="details.html">
+                                    <img src="./Assests/popular (2).png" alt="Food Delivery Website">
+                                </a>
+                            </div>
+
+                            <h2 class="foodTitle">
+                                Salata Primavara cu Somon 
+                            </h2>
+
+                            <p>
+                               O salata plina cu proteine si omega 3.
+                            </p>
+
+                            <h4 class="price">
+                              <a href="details.html">
+                                15.0 ron
+                                <i class="uil uil-external-link-alt icon"></i>
+                              </a>
+                            </h4>
+
+                        </div>
+
+                        
+                        <div data-aos="fade-up" data-aos-duration="4000" class="swiper-slide singleItem">
+                            <div class="rating">
+                                <i class='bx bxs-star icon'></i>
+                                4.5
+                            </div>
+
+                            <div class="imgDiv  flex">
+                                <a href="details.html">
+                                    <img src="./Assests/popular (3).png" alt="Food Delivery Website">
+                                </a>
+                            </div>
+
+                            <h2 class="foodTitle">
+                                Paste italienesti
+                            </h2>
+
+                            <p>
+                                Paste italienesti cu branza si busuioc.
+                            </p>
+
+                            <h4 class="price">
+                              <a href="details.html">
+                                15.0 ron
+                                <i class="uil uil-external-link-alt icon"></i>
+                              </a>
+                            </h4>
+
+                        </div>
+                           
+                        <div data-aos="fade-up" data-aos-duration="4000" class="swiper-slide singleItem">
+                            <div class="rating">
+                                <i class='bx bxs-star icon'></i>
+                                4.5
+                            </div>
+
+                            <div class="imgDiv  flex">
+                                <a href="details.html">
+                                    <img src="./Assests/popular (4).png" alt="Food Delivery Website">
+                                </a>
+                            </div>
+
+                            <h2 class="foodTitle">
+                                Paste Carbonara
+                            </h2>
+
+                            <p>
+                                Paste carbonara cu piept de pui si sos din ciuperci alb
+                            </p>
+
+                            <h4 class="price">
+                              <a href="details.html">
+                            20.0 ron
+                                <i class="uil uil-external-link-alt icon"></i>
+                              </a>
+                            </h4>
+
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="section container review">
+        <div class="sectionContent grid">
+              <div class="secText">
+
+                <div data-aos="fade-down" data-aos-duration="2000" class="secTitle">
+                    <h2>Customer <span>Feedback</span></h2>
+                </div>
+
+               <div class="content">      
+                <div data-aos="fade-down" data-aos-duration="3000" class="singleCustomer">
+                    <p>
+                        Mancarea este foarte buna si livrarea este rapida. Recomand cu incredere.nu pot sa nu revin in fiecare zi incercand ce mai este nou.
+                    </p>
+
+                    <div class="customerDetails flex">
+                        <div class="img">
+                            <img src="" alt="Online food ordering">
+                        </div>
+                        <div class="name">
+                            Mircea <br>
+                            <span>
+                                Daily guest
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-right" data-aos-duration="2000" class="records flex">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="leftDiv flex">
+                       <img src="./Assests/chef (2).png" alt="Online restaurant">
+                       <h1>15</h1>
+                       <span>Membri</span>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="3000" class="leftDiv flex">
+                       <img src="./Assests/medal.png" alt="Online restaurant">
+                       <h1>345</h1>
+                       <span>Clienti <br> Satisfacuti</span>
+                    </div>
+                    
+                </div>
+               </div>
+
+              </div>
+
+              <div  class="secImage">
+                <img src="./Assests/chef.png" alt="Food chef" data-aos="fade-left" data-aos-duration="2000">
+              </div>
+        </div>
+    </section>
+   
+    <section class="section container newsLetter">
+        <div data-aos="fade-right" data-aos-duration="2000" class="sectionContent flex">
+            <h1>Subscribe <span>Newsletter</span></h1>
+
+            <form  action="">
+                <div class="input flex">
+                    <input type="email" name="email" placeholder="Enter your email address">
+
+                    <button type="submit" class="btn">
+                        Subscribe Now
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <section class="container footer">
+       <div class="sectionContent grid">
+
+        <div data-aos="fade-down" data-aos-duration="2000" class="footerIntro">
+        <div class="logoDiv">
+            <a href="#" class="logo">
+                FoodisLife 
+            </a>
+        </div>
+        <p>
+            Str.Pescariei 69 <br>
+            Romania, Constanta.
+            
+            <span class="phone">+40 749 911 618</span>
+        </p>
+
+        <div class="socials flex">
+            <a href="https://www.facebook.com/bordianu.renata.22/" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_.sorster._" class="icon"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.youtube.com/channel/UCCjyJWtzHaTwW9PorV8g8-g" class="icon"><i class='bx bxl-youtube'></i></a>
+        </div>
+        </div>
+
+        <div data-aos="fade-down" data-aos-duration="3000" class="timing">
+        <h3>Orele de activitate</h3>
+        <p>Luni - Vineri 8AM - 10PM</p>
+        <p>Sambata 8AM - 6PM</p>
+        <p>Duminica 8AM - 11PM</p>
+        
+        </div>
+
+        <div data-aos="fade-down" data-aos-duration="3000" class="quickLinks">
+            <h3>Quick Link</h3>
+            <li class="navItem">
+                <a href="index.html" class="navLink">Home</a>
+            </li>
+
+            <li class="navItem">
+                <a href="#about" class="navLink">About</a>
+            </li>
+
+            <li class="navItem">
+                <a href="menu.html" class="navLink">Menu</a>
+            </li>
+
+            <li class="navItem">
+                <a href="login.html" class="navLink">Administrators</a>
+            </li>
+
+        </div>
+       </div>
+    </section>
+   
+    <script src="./swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="./index.js"></script>
+
+    <!--AOS.js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>FoodisLife</title>
+
+
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/c93511b22d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+    <header class="header flex" id="header">
+        <div class="logoDiv">
+            <a href="index.html" class="logo">
+                FoodisLife
+            </a>
+        </div>
+
+       
+        <div class="navBar" id="navBar">
+            <ul class="navLists flex">
+                <li class="navItem">
+                    <a href="index.html" class="navLink">Home</a>
+                </li>
+
+
+                <li class="navItem">
+                    <a href="menu.html" class="navLink">Menu</a>
+                </li>
+
+                <div class="navBarText">
+                    <p>Mancare</p>
+                </div>
+
+             
+                <div class="closeNavbar" id="closeBtn">
+                    <i class='bx bxs-x-circle icon'></i>
+                </div>
+            </ul>
+        </div>
+
+        <div class="headerIcons flex">
+            <a href="#">
+                <i class="uil uil-shopping-bag icon"></i>
+            </a>
+
+             <div class="contactNumber">
+                <i class="uil uil-phone icon phoneIcon"></i>
+                <div class="phoneCard flex">
+                    <i class='bx bxs-phone icon'></i>
+                    <h3> +40749911618</h3>
+                </div>
+             </div>
+
+ 
+        </div>
+
+        <div class="toggleNavbar" id="toggler">
+            <i class="uil uil-align-justify icon"></i>
+        </div>
+    </header>
+   
+    <section class="container section menuPage">
+        <div class="secContent">
+            <div class="sectionIntro">
+                <h1 class="secTitle">Meniu</h1>
+                <p class="subTitle">Bine ati venit.</p>
+
+                <img src="./Assests/titleDesign.png" alt="Design Image">
+            </div>
+            <div class="optionMenu flex">
+                <div class=" option" data-filter="food">
+                  <img src="./Assests/diet.png" alt="Best Online food delivery in Nigeria">
+                  <small>Mancare</small>
+                </div>
+                <div class=" option" data-filter="drinks">
+                  <img src="./assests/drink.png" alt="Best Online restaurant in Nigeria">
+                  <small>Bauturi</small>
+                </div>
+                <div class=" option categoryActive" data-filter="quick">
+                  <img src="./assests/pizza.png" alt="Food Image">
+                  <small>Fast-food</small>
+                </div>
+                <div class=" option" data-filter="party">
+                  <img src="./assests/cake.png" alt="Best Online restaurant in Nigeria">
+                  <small>Petrecere</small>
+                </div>
+                <div class=" option"  data-filter="dessert">
+                  <img src="./assests/dessert.png" alt="Best Online restaurant in Nigeria">
+                  <small>Desert</small>
+                </div>
+            </div>
+
+            <div class="allItems">
+                <div class="categoryWrapper grid hide" data-target="food">
+
+                    
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/popular (2).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                           Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>20 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                  
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (2).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>15 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                 
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (21).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>23 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+           
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (20).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        
+
+                        <h4 class="price flex">
+                            <span>16.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="categoryWrapper grid hide" data-target="drinks">
+
+               
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (11).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+
+                        <h4 class="price flex">
+                            <span>10.0 ron</span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (10).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                       
+                        <h4 class="price flex">
+                            <span>24.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                 
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (5).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                      
+
+                        <h4 class="price flex">
+                            <span>19.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (6).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                       
+
+                        <h4 class="price flex">
+                            <span>31.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="categoryWrapper grid" data-target="quick">
+
+                   
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (1).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                      
+                        <h4 class="price flex">
+                            <span>17.0 ron</span>
+                            <a href="cart.html" class="btn flex">Adauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                   
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (3).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        
+
+                        <h4 class="price flex">
+                            <span>15.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                  
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/popular (1).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                       
+                        <h4 class="price flex">
+                            <span>25 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                 
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/popular (4).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        
+                        <h4 class="price flex">
+                            <span>12.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="categoryWrapper grid hide" data-target="party">
+
+                   
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/cake (1).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>14.0 ron</span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+             
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/cake (2).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                       
+                        <h4 class="price flex">
+                            <span>32 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/cake (6).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>19.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/cake (4).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        
+                        <h4 class="price flex">
+                            <span>5.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="categoryWrapper grid hide" data-target="dessert">
+
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (15).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+                        <h4 class="price flex">
+                            <span>10.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+              
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (3).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+
+                        <h4 class="price flex">
+                            <span>7 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos <i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/new (4).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+
+                        <h4 class="price flex">
+                            <span>14.0 ron </span>
+                            <a href="cart.html" class="btn flex">AAdauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                    
+                    <div class="singleItem">
+                        <div class="rating">
+                            <i class='bx bxs-star icon'></i>
+                            4.5
+                        </div>
+
+                        <div class="imgDiv  flex">
+                            <img src="./Assests/popular (5).png" alt="Food Delivery Website">
+                        </div>
+
+                        <h2 class="foodTitle">
+                            Item Name
+                        </h2>
+
+
+                        <h4 class="price flex">
+                            <span>13.0 ron </span>
+                            <a href="cart.html" class="btn flex">Adauga la cos<i class="uil uil-shopping-bag icon"></i> </a>
+                          
+                        </h4>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="container footer">
+        <div class="sectionContent grid">
+ 
+         <div data-aos="fade-down" data-aos-duration="2000" class="footerIntro">
+         <div class="logoDiv">
+             <a href="#" class="logo">
+                 FoodisLife 
+             </a>
+         </div>
+         <p>
+             Str.Pescariei 69 <br>
+             Romania, Constanta.
+             
+             <span class="phone">+40 749 911 618</span>
+         </p>
+ 
+         <div class="socials flex">
+             <a href="https://www.facebook.com/bordianu.renata.22/" class="icon"><i class="fab fa-facebook"></i></a>
+             <a href="https://www.instagram.com/_.sorster._" class="icon"><i class='bx bxl-instagram-alt'></i></a>
+             <a href="https://www.youtube.com/channel/UCCjyJWtzHaTwW9PorV8g8-g" class="icon"><i class='bx bxl-youtube'></i></a>
+         </div>
+         </div>
+ 
+         <div data-aos="fade-down" data-aos-duration="3000" class="timing">
+         <h3>Orele de activitate</h3>
+         <p>Luni - Vineri 8AM - 10PM</p>
+         <p>Sambata 8AM - 6PM</p>
+         <p>Duminica 8AM - 11PM</p>
+         
+         </div>
+ 
+         <div data-aos="fade-down" data-aos-duration="3000" class="quickLinks">
+             <h3>Quick Link</h3>
+             <li class="navItem">
+                 <a href="index.html" class="navLink">Home</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="#about" class="navLink">About</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="menu.html" class="navLink">Menu</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="login.html" class="navLink">Administrators</a>
+             </li>
+ 
+         </div>
+        </div>
+     </section>
+   
+ 
+  
+    <script src="./swiper-bundle.min.js"></script>
+ 
+    <script src="./index.js"></script>
+     
+ </body>
+ </html>    

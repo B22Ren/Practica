@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>FoodisLife</title>
+
+ 
+    <link rel="stylesheet" href="./main.css">
+
+
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/c93511b22d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+    <header class="header flex" id="header">
+        <div class="logoDiv">
+            <a href="index.html" class="logo">
+                FodisLife
+            </a>
+        </div>
+
+
+        <div class="navBar" id="navBar">
+            <ul class="navLists flex">
+                <li class="navItem">
+                    <a href="index.html" class="navLink">Home</a>
+                </li>
+
+                <li class="navItem">
+                    <a href="menu.html" class="navLink">Menu</a>
+                </li>
+
+                <div class="navBarText">
+                    <p>Ultimul pas ca sa iti indeplinesti poftemel</p>
+                </div>
+
+             
+                <div class="closeNavbar" id="closeBtn">
+                    <i class='bx bxs-x-circle icon'></i>
+                </div>
+            </ul>
+        </div>
+
+       
+        <div class="headerIcons flex">
+            <a href="cart.html">
+                <i class="uil uil-shopping-bag icon"></i>
+            </a>
+
+             <div class="contactNumber">
+                <i class="uil uil-phone icon phoneIcon"></i>
+                <div class="phoneCard flex">
+                    <i class='bx bxs-phone icon'></i>
+                    <h3> +40 749 11 618</h3>
+                </div>
+             </div>
+
+      
+        </div>
+
+        <div class="toggleNavbar" id="toggler">
+            <i class="uil uil-align-justify icon"></i>
+        </div>
+    </header>
+   
+    <section class="section container checkOut">
+        <div class="secTitle">
+            <h2 class="title flex">
+                Checkout <img src="./Assests/trolley.png" alt="Icon">
+            </h2>
+        </div>
+
+        <div class="secContent">
+        <form method="POST">
+            <div class="mainContent grid">
+ 
+                <div class="rightDiv grid">
+                    <div class="personalInfo">
+                        <h3 class="title flex">Informatie Personala: <img src="./Assests/details.png" alt="Icon"></h3>
+        
+                        
+                            <div class="inputDiv ">
+    
+                                <div class="input">
+                                    <label for="fName">Prenume</label>
+                                    <input type="text" name="fName" placeholder="Introdu prenumele" required>
+                                </div>
+    
+                                <div class="input">
+                                    <label for="LName">Nume</label>
+                                    <input type="text" name="LName" placeholder="Introdu Numele" required>
+                                </div>
+    
+                                <div class="input">
+                                    <label for="phone">Numarul de telefon</label>
+                                    <input type="number" name="phone" placeholder="Introdu nr de telefon" required>
+                                </div>
+    
+                                <div class="input">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" placeholder="introdu email-ul" required>
+                                </div>
+                            </div>
+                        
+                    </div>
+        
+                    <div class="deliveryAddress">
+                        <h3 class="title flex">Detalii de livrare: <img src="./Assests/house.png" alt="Icon"></h3>
+                        
+                            <div class="inputDiv">
+                                    <div class="input">
+                                        <label for="town">Adresa</label>
+                                        <select name="town" required>
+                                            <option value="London">Constanta</option>
+                                            <option value="Liverpool">Ovidiu</option>
+                                            <option value="Shefield">Braila</option>
+                                            <option value="Leicester">Macin</option>
+                                        </select>
+                                    </div>
+                
+                                    <div class="input">
+                                    <label for="street">Strada</label>
+                                    <input type="text" name="street" placeholder="Enter Your Street" required>
+                                    </div>
+                
+                                    <div class="input">
+                                    <label for="buildingNo">Numarul cladiri</label>
+                                    <input type="text" name="buildingNo" placeholder="Enter Building Number" required>
+                                    </div>
+                                    
+                                    <div class="input">
+                                    <label for="message">Mesaj (Optional)</label>
+                                    <textarea name="message" placeholder="Orice mesaj doriti"></textarea>
+                                    </div>
+                            </div>
+                        
+                    </div>
+        
+                    <div class="paymentOption">
+                        <h3 class="title flex">Plata: <img src="./Assests/debit-card.png" alt="Icon"></h3>
+                        <div class="optionDiv">
+                            <div class="input flex">
+                               <div class="radio">
+                                <input type="radio" name="POD" class="input1">
+                                <span class="after"></span>
+                               </div>
+                                <label for="POD">Plateste la livrare: (Pretul pornirii si livrarii 5 roni)</label>
+                            </div>
+    
+                            <div class="input flex">
+                                <div class="radio">
+                                    <input type="radio" name="mobile">
+                                    <span class="after input2"></span>
+                                </div>
+                                <label for="mobile">tranfer pe nr de telefon: (Transfer to: +40 749 911 618)</label>              
+                            </div>
+                            <div class="TID">
+                                <input type="text" name="tid" placeholder="Introdu Id de tranzactie" required>
+                            </div>
+    
+    
+                            <div class="input flex">
+                                <div class="radio">
+                                    <input type="radio" name="mobile">
+                                    <span class="after input3"></span>
+                                </div>
+                                <label for="mobile">Plata in local: (Introdu nr mesei)</label>              
+                            </div>
+                            <div class="tableNumber">
+                                <input type="text" name="tableNumber" placeholder="Introdu numarul mesei" required>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leftDiv grid">
+                    <div class="cartDiv grid">
+                        <h3 class="title flex">
+                            Comanda ta: <img src="./Assests/cart.png" alt="Icon">
+                        </h3>
+        
+                        <div class="singleCart flex">
+                            <img src="./Assests/popular (1).png" alt="Food Image">
+                            <div class="foodDetails">
+                                <span class="name_closeIcon flex">
+                                   Platou de sushi
+                                    <i class='bx bx-x icon' ></i>
+                                </span>
+                                <span class="qty_price flex">
+                                    <span>Cantitate: 1</span>
+                                    <span>33.0 ron</span>
+                                </span>
+                            </div>
+                        </div>
+        
+                        <div class="singleCart flex">
+                            <img src="./Assests/popular (2).png" alt="Food Image">
+                            <div class="foodDetails">
+                                <span class="name_closeIcon flex">
+                                    Salata Primavara cu Somon 
+                                    <i class='bx bx-x icon' ></i>
+                                </span>
+                                <span class="qty_price flex">
+                                    <span>Cantitate: 1</span>
+                                    <span>20.0 ron</span>
+                                </span>
+                            </div>
+                        </div>
+        
+                        <div class="singleCart flex">
+                            <img src="./Assests/popular (3).png" alt="Food Image">
+                            <div class="foodDetails">
+                                <span class="name_closeIcon flex">
+                                    Paste Italienesti
+                                    <i class='bx bx-x icon' ></i>
+                                </span>
+                                <span class="qty_price flex">
+                                    <span>Cantitate: 1</span>
+                                    <span>19.0 ron</span>
+                                </span>
+                            </div>
+                        </div>
+        
+                        <div class="singleCart flex">
+                            <img src="./Assests/popular (4).png" alt="Food Image">
+                            <div class="foodDetails">
+                                <span class="name_closeIcon flex">
+                                    Paste Carbonara
+                                    <i class='bx bx-x icon' ></i>
+                                </span>
+                                <span class="qty_price flex">
+                                    <span>Cantitate: 1</span>
+                                    <span>22 ron</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="amountDiv">
+                        <h3 class="title flex">
+                          Costul total: <img src="./Assests/order.png" alt="Icon">
+                        </h3>
+                
+                        <span class="cartList flex">
+                            <span class="subTitle">
+                                Subtotal:
+                            </span>
+                            <span class="cost">
+                               94.0 ron
+                            </span>
+                           
+                        </span>
+        
+                        <span class="cartList flex">
+                            <span class="subTitle">
+                                Total:
+                            </span>
+                            <span class="gradCost">
+                                99.0 ron
+                            </span>
+                        </span>
+        
+                        <button type="submit" name="submit" class="btn">Achita</button> 
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+         
+       
+        </div>
+    </section>
+    
+    <section class="container footer">
+        <div class="sectionContent grid">
+ 
+         <div data-aos="fade-down" data-aos-duration="2000" class="footerIntro">
+         <div class="logoDiv">
+             <a href="#" class="logo">
+                 FoodisLife 
+             </a>
+         </div>
+         <p>
+             Str.Pescariei 69 <br>
+             Romania, Constanta.
+             
+             <span class="phone">+40 749 911 618</span>
+         </p>
+ 
+         <div class="socials flex">
+             <a href="https://www.facebook.com/bordianu.renata.22/" class="icon"><i class="fab fa-facebook"></i></a>
+             <a href="https://www.instagram.com/_.sorster._" class="icon"><i class='bx bxl-instagram-alt'></i></a>
+             <a href="https://www.youtube.com/channel/UCCjyJWtzHaTwW9PorV8g8-g" class="icon"><i class='bx bxl-youtube'></i></a>
+         </div>
+         </div>
+ 
+         <div data-aos="fade-down" data-aos-duration="3000" class="timing">
+         <h3>Orele de activitate</h3>
+         <p>Luni - Vineri 8AM - 10PM</p>
+         <p>Sambata 8AM - 6PM</p>
+         <p>Duminica 8AM - 11PM</p>
+         
+         </div>
+ 
+         <div data-aos="fade-down" data-aos-duration="3000" class="quickLinks">
+             <h3>Quick Link</h3>
+             <li class="navItem">
+                 <a href="index.html" class="navLink">Home</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="#about" class="navLink">About</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="menu.html" class="navLink">Menu</a>
+             </li>
+ 
+             <li class="navItem">
+                 <a href="login.html" class="navLink">Administrators</a>
+             </li>
+ 
+         </div>
+        </div>
+     </section>
+    
+    <script src="./swiper-bundle.min.js"></script>
+  
+    <script src="./index.js"></script>
+     
+ </body>
+ </html>    
